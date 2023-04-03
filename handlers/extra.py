@@ -1,6 +1,7 @@
 from aiogram import types, Dispatcher
 from .loader import download_video
 
+
 async def delete_sticker(message: types.Message):
     await message.delete()
 
